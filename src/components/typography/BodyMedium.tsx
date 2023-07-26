@@ -15,6 +15,7 @@ export default function BodyMedium(props: ITypography): JSX.Element {
   const { inline, ...restProps } = props;
 
   const PROPERTIES = [
+    'color--dark-gray',
     'font-weight--300',
     'sm-font-size--12',
     'md-font-size--14',

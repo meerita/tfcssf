@@ -2,7 +2,7 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
+  "/manifesto": "pages/manifesto.js",
   "/": "pages/index.js",
-  "/installation": "pages/installation.js",
-  "/manifesto": "pages/manifesto.js"
+  "/breakpoint": "pages/breakpoint.js"
 }

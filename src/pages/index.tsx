@@ -29,10 +29,10 @@ export default function Home() {
         </BodyLarge>
         <BodyMedium>
           FCSSF (The Functional CSS Framework) is a versatile and lightweight
-          functional <abbr title='Cascading Style Sheets'>CSS</abbr>
-          framework that simplifies the process of styling web applications.
-          This repository contains the core FCSSF CSS files, a Next.js
-          documentation application, and some basic React components.
+          functional <abbr title='Cascading Style Sheets'>CSS</abbr> framework
+          that simplifies the process of styling web applications. This
+          repository contains the core FCSSF CSS files, a Next.js documentation
+          application, and some basic React components.
         </BodyMedium>
         <ul>
           <li>
@@ -41,8 +41,8 @@ export default function Home() {
             </Link>
           </li>
           <li>
-            <Link href={'/'}>
-              <BodyMedium inline>Breakpoints support strategy</BodyMedium>
+            <Link href={'/breakpoint'}>
+              <BodyMedium inline>The Breakpoints Support Strategy</BodyMedium>
             </Link>
           </li>
         </ul>
