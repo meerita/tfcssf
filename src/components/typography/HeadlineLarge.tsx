@@ -1,16 +1,17 @@
 /**
- * Renders a small-sized body text with optional inline display. The component
+ * Renders a big-sized headline with optional inline display. The component
  * will render a SPAN element if the inline prop is true, otherwise it will
- * render a H3 element.
+ * render a H1 element.
  *
  * @format
  * @param props - The props for the BodySmall component.
- * @returns The rendered BodySmall component.
+ * @interface ITypography
+ * @returns The rendered HeadlineLarge component.
  */
 
-import { ITypography } from '@/interfaces/ITypography';
+import ITypography from '@/interfaces/ITypography';
 
-export default function HeadlineLarge(props: ITypography) {
+export default function HeadlineLarge(props: ITypography): JSX.Element {
   const { inline, ...restProps } = props;
 
   const PROPERTIES = [
@@ -19,6 +20,9 @@ export default function HeadlineLarge(props: ITypography) {
     'margin--0',
     'sm-font-size--28',
     'md-font-size--32',
+    'lg-font-size--36',
+    'xl-font-size--40',
+    'xxl-font-size--44',
     'line-height--130',
   ];
 

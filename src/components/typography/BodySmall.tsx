@@ -1,14 +1,17 @@
-import TypographyProps from '../../interfaces/typography';
-
 /**
  * Renders a small-sized body text with optional inline display. The component
  * will render a SPAN element if the inline prop is true, otherwise it will
  * render a H3 element.
- * @param props - The props for the BodySmall component.
- * @returns The rendered BodySmall component.
  *
+ * @format
+ * @param props - The props for the BodySmall component.
+ * @interface ITypography
+ * @returns The rendered BodySmall component.
  */
-export default function BodySmall(props: TypographyProps) {
+
+import ITypography from '@/interfaces/ITypography';
+
+export default function BodySmall(props: ITypography): JSX.Element {
   const { inline, ...restProps } = props;
 
   const PROPERTIES = [

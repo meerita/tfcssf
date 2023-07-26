@@ -9,7 +9,7 @@
  * @returns The rendered BodyLarge component.
  */
 
-import { ITypography } from '@/interfaces/ITypography';
+import ITypography from '@/interfaces/ITypography';
 
 export default function BodyLarge(props: ITypography): JSX.Element {
   const { inline, ...restProps } = props;

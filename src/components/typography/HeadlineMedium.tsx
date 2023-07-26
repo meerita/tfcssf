@@ -1,14 +1,17 @@
-import TypographyProps from '../../interfaces/typography';
-
 /**
- * Renders a small-sized body text with optional inline display. The component
+ * Renders a medium-sized headline title with optional inline display. The component
  * will render a SPAN element if the inline prop is true, otherwise it will
- * render a H3 element.
- * @param props - The props for the BodySmall component.
- * @returns The rendered BodySmall component.
+ * render a H2 element.
+ *
+ * @format
+ * @param props - The props for the HeadlineMedium component.
+ * @interface ITypography extends TypographyProps
+ * @returns The rendered HeadlineMedium component.
  */
 
-export default function HeadlineMedium(props: TypographyProps) {
+import ITypography from '@/interfaces/ITypography';
+
+export default function HeadlineMedium(props: ITypography): JSX.Element {
   const { inline, ...restProps } = props;
 
   const PROPERTIES = [

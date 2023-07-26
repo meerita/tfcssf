@@ -25,7 +25,8 @@ export default function Home() {
       <Main>
         <DisplayLarge>The Functional CSS Framework</DisplayLarge>
         <BodyLarge>
-          We've been doing CSS <Link href='/manifesto'>wrong all along.</Link>
+          We&apos;ve been doing CSS{' '}
+          <Link href='/manifesto'>wrong all along.</Link>
         </BodyLarge>
         <BodyMedium>
           FCSSF (The Functional CSS Framework) is a versatile and lightweight

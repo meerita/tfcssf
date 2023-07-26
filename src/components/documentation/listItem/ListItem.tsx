@@ -9,7 +9,7 @@
  * @returns The rendered BodyMedium component.
  */
 
-import { ITypography } from '@/interfaces/ITypography';
+import ITypography from '@/interfaces/ITypography';
 
 export default function ListItem(props: ITypography): JSX.Element {
   const { ...restProps } = props;

@@ -8,7 +8,7 @@
  * @returns The rendered BodySmall component.
  */
 
-import { ITypography } from '@/interfaces/ITypography';
+import ITypography from '@/interfaces/ITypography';
 
 export default function DisplayLarge(props: ITypography): JSX.Element {
   const { inline, ...restProps } = props;

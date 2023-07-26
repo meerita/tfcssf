@@ -1,8 +1,11 @@
 {
   "/_app": "pages/_app.js",
-  "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/manifesto": "pages/manifesto.js",
-  "/": "pages/index.js",
-  "/breakpoint": "pages/breakpoint.js"
+  "/api/hello": "pages/api/hello.js",
+  "/breakpoint": "pages/breakpoint.html",
+  "/": "pages/index.html",
+  "/installation": "pages/installation.html",
+  "/manifesto": "pages/manifesto.html",
+  "/_error": "pages/_error.js",
+  "/404": "pages/404.html"
 }

@@ -1,14 +1,17 @@
-import TypographyProps from '../../interfaces/typography';
-
 /**
  * Renders a small-sized title text with optional inline display. The component
  * will render a SPAN element if the inline prop is true, otherwise it will
  * render a H6 element.
+ *
+ * @format
  * @param props - The props for the TitleSmall component.
+ * @interface ITypography extends TypographyProps
  * @returns The rendered TitleSmall component.
  */
 
-export default function TitleSmall(props: TypographyProps) {
+import ITypography from '@/interfaces/ITypography';
+
+export default function TitleSmall(props: ITypography): JSX.Element {
   const { inline, ...restProps } = props;
 
   const PROPERTIES = [

@@ -24,11 +24,11 @@ export default function Manifesto() {
         <BodySmall>
           <Link href='/'>Home</Link>
         </BodySmall>
-        <DisplayLarge>We've been doing CSS wrong all along</DisplayLarge>
+        <DisplayLarge>We&apos;ve been doing CSS wrong all along</DisplayLarge>
         <BodyLarge>
           We have been programming{' '}
           <abbr title='Cascading Style Sheets'>CSS</abbr> incorrectly for a long
-          time. It's time to move forward. By using the Functional CSS
+          time. It&apos;s time to move forward. By using the Functional CSS
           Framework, the size of the CSS files is drastically reduced. The
           loading, rendering, and painting speed of websites are significantly
           increased. The projects also gain ease of maintenance and become
@@ -43,10 +43,10 @@ export default function Manifesto() {
           files by hand, always repeating the same changes, was a blessing. But…
           we had a problem: back then, IE 3 was the first browser to support the
           fully CSS 1 standard, so the rest of the population were still using
-          Netscape and, as you may suspect, people didn't switch browsers at all
-          like we do today. So, we developers had to stick to HTML editing until
-          the majority of people switched or upgraded browsers. That was the
-          reality around 1996.
+          Netscape and, as you may suspect, people did not switch browsers at
+          all like we do today. So, we developers had to stick to HTML editing
+          until the majority of people switched or upgraded browsers. That was
+          the reality around 1996.
         </BodyMedium>
         <BodyMedium>
           Developers were once concerned with the performance of their creations
@@ -64,8 +64,8 @@ export default function Manifesto() {
           focusing on better architectures. The crazy optimizations we pursued
           in the past now feel irrelevant. Despite this, many aspects are still
           crucial, particularly when coding CSS, as it significantly impacts
-          both browsing performance and the team's efficiency in developing and
-          maintaining the code.
+          both browsing performance and the team&apos;s efficiency in developing
+          and maintaining the code.
         </BodyMedium>
         <HeadlineLarge>We have created a monster</HeadlineLarge>
         <BodyMedium>
@@ -164,7 +164,7 @@ export default function Manifesto() {
           project again, I was pleasantly surprised to find that I could start
           working right away without worrying about the CSS architecture. This
           is another great advantage of working with a functional programming
-          approach; it's easier to extend, modify, and work around. There's no
+          approach; it is easier to extend, modify, and work around. There is no
           need to memorize the entire project model to keep working efficiently.
           This newfound ease of working with a functional CSS approach allowed
           me to focus more on implementing new features and making improvements,
