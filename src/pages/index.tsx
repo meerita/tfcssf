@@ -7,6 +7,7 @@ import BodyLarge from '@/components/typography/BodyLarge';
 import BodyMedium from '@/components/typography/BodyMedium';
 import Link from 'next/link';
 import Main from '@/components/documentation/main';
+import ListItem from '@/components/documentation/listItem/ListItem';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -36,16 +37,24 @@ export default function Home() {
           application, and some basic React components.
         </BodyMedium>
         <ul>
-          <li>
-            <Link href={'/installation'}>
-              <BodyMedium inline>Installation</BodyMedium>
-            </Link>
-          </li>
-          <li>
-            <Link href={'/breakpoint'}>
-              <BodyMedium inline>The Breakpoints Support Strategy</BodyMedium>
-            </Link>
-          </li>
+          <ListItem>
+            <Link href={'/breakpoint'}>Why Functional CSS is important</Link>
+          </ListItem>
+          <ListItem>
+            <Link href={'/breakpoint'}>Performance stats</Link>
+          </ListItem>
+          <ListItem>
+            <Link href={'/installation'}>Installation</Link>
+          </ListItem>
+          <ListItem>
+            <Link href={'/breakpoint'}>Breakpoints Support Strategy</Link>
+          </ListItem>
+          <ListItem>
+            <Link href={'/breakpoint'}>Purge Strategy</Link>
+          </ListItem>
+          <ListItem>
+            <Link href={'/customization'}>Customization</Link>
+          </ListItem>
         </ul>
       </Main>
     </>

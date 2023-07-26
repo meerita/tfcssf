@@ -14,7 +14,7 @@ import ITypography from '@/interfaces/ITypography';
 export default function BodyMedium(props: ITypography): JSX.Element {
   const { inline, ...restProps } = props;
 
-  const PROPERTIES = [
+  const cssProperties = [
     'color--dark-gray',
     'font-weight--300',
     'sm-font-size--12',
@@ -30,7 +30,7 @@ export default function BodyMedium(props: ITypography): JSX.Element {
   return (
     <Component
       {...restProps}
-      className={`${PROPERTIES.join(' ')} ${restProps.className}`}
+      className={`${cssProperties.join(' ')} ${restProps.className}`}
     >
       {props.children}
     </Component>
