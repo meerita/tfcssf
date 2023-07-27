@@ -15,7 +15,7 @@ export default function ListItem(props: ITypography): JSX.Element {
   const { ...restProps } = props;
 
   const PROPERTIES = [
-    'color--gray',
+    'color--dark-gray',
     'font-weight--300',
     'sm-font-size--12',
     'md-font-size--14',

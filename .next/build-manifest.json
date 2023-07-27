@@ -27,10 +27,15 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/installation": [
+    "/breakpoint": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/installation.js"
+      "static/chunks/pages/breakpoint.js"
+    ],
+    "/why": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/why.js"
     ]
   },
   "ampFirstPages": []
