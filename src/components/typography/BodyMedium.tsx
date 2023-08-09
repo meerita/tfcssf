@@ -19,7 +19,7 @@ export default function BodyMedium(props: ITypography): JSX.Element {
     'font-weight--300',
     'sm-font-size--12',
     'md-font-size--14',
-    'lg-font-size--16',
+    'lg-font-size--18',
     'xl-font-size--22',
     'xxl-font-size--24',
     'line-height--140',

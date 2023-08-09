@@ -126,7 +126,7 @@ export default function Why() {
         <BodyMedium>
           Functional CSS offers a faster and more efficient way to develop CSS.
           The purged files using the FCSS framework are typically small enough
-          to be placed in the HEAD section of the HTML document, rather than
+          to be placed in the HEAD section of the H TML document, rather than
           being served through external CSS files. Even if an external file is
           used, FCSS will still deliver the CSS to the browser more quickly than
           conventional CSS development methods. Most FCSS files are less than

@@ -16,11 +16,11 @@ export default function BodyLarge(props: ITypography): JSX.Element {
 
   const baseCSSProperties = [
     'font-weight--300',
-    'sm-font-size--14',
-    'md-font-size--16',
-    'lg-font-size--22',
-    'xl-font-size--24',
-    'xxl-font-size--28',
+    'sm-font-size--16',
+    'md-font-size--18',
+    'lg-font-size--24',
+    'xl-font-size--28',
+    'xxl-font-size--32',
     'line-height--130',
   ];
 
