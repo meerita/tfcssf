@@ -6,9 +6,8 @@ import Main from '@/components/documentation/main';
 import BodyLarge from '@/components/typography/BodyLarge';
 import BodyMedium from '@/components/typography/BodyMedium';
 import BodySmall from '@/components/typography/BodySmall';
-import HeadlineLarge from '@/components/typography/HeadlineLarge';
-import ListItem from '@/components/documentation/listItem/ListItem';
 import TitleLarge from '@/components/typography/TitleLarge';
+import Image from 'next/image';
 
 export default function Why() {
   return (
@@ -101,14 +100,16 @@ export default function Why() {
           the 3rd one (Resources). It&apos;s commendable that they care about
           these topics, but often, the majority of developers aren&apos;t aware
           of the 4th stage of optimizations (Rendering). During this stage, you
-          can make various modifications to your code to increase your website's
-          speed. This is where FCSS shines.
+          can make various modifications to your code to increase your
+          website&apos;s speed. This is where FCSS shines.
         </BodyMedium>
 
-        <img
+        <Image
           src='/performance.svg'
           alt='Performance'
           style={{ maxWidth: '100%', maxHeight: '100%' }}
+          width={640}
+          height={480}
         />
 
         <BodyMedium>
@@ -159,13 +160,13 @@ export default function Why() {
           selectors and pseudo selectors, etc. Functional CSS approach
           outperforms any other methodology: it is so explicit that render times
           are greatly improved. In all tests with different projects in
-          complexity, I've got performance gains from an average of 175ms to a
-          mere 17ms. That's insanely fast. This is given because of the explicit
-          nature of the single class CSS and the lack of all the rules in play
-          at that moment. In a test in the lab, we have found that even
-          un-styled pages aren't that faster than the same HTML styled with FCSS
-          due the nature of the CSS provided on the default browser's CSS
-          stylesheets. So amazing as that.
+          complexity, I&apos;ve got performance gains from an average of 175ms
+          to a mere 17ms. That&apos;s insanely fast. This is given because of
+          the explicit nature of the single class CSS and the lack of all the
+          rules in play at that moment. In a test in the lab, we have found that
+          even un-styled pages aren&apos;t that faster than the same HTML styled
+          with FCSS due the nature of the CSS provided on the default
+          browser&apos;s CSS stylesheets. So amazing as that.
         </BodyMedium>
       </Main>
     </>
