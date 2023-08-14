@@ -107,7 +107,13 @@ export default function Why() {
         <Image
           src='/performance.svg'
           alt='Performance'
-          style={{ maxWidth: '100%', maxHeight: '100%' }}
+          style={{
+            display: 'block',
+            width: '100%',
+            height: '100%',
+            maxWidth: '80%',
+            marginInline: 'auto',
+          }}
           width={640}
           height={480}
         />

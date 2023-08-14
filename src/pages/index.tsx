@@ -38,11 +38,7 @@ export default function Home() {
         </BodyMedium>
         <ul>
           <ListItem>
-<<<<<<< HEAD
-            <Link href={'/breakpoint'}>Why Functional CSS is important</Link>
-=======
             <Link href={'/why'}>Why Functional CSS is important</Link>
->>>>>>> main
           </ListItem>
           <ListItem>
             <Link href={'/breakpoint'}>Performance stats</Link>
