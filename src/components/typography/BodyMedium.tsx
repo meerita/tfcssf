@@ -19,10 +19,17 @@ export default function BodyMedium(props: ITypography): JSX.Element {
     'font-weight--300',
     'sm-font-size--12',
     'md-font-size--14',
+<<<<<<< HEAD
     'lg-font-size--16',
     'xl-font-size--22',
     'xxl-font-size--24',
     'line-height--150',
+=======
+    'lg-font-size--18',
+    'xl-font-size--22',
+    'xxl-font-size--24',
+    'line-height--140',
+>>>>>>> main
   ];
 
   const Component = inline ? 'span' : 'p';

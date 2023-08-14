@@ -19,7 +19,11 @@ export default function DisplayLarge(props: ITypography): JSX.Element {
     'margin--0',
     'sm-font-size--45',
     'md-font-size--57',
+<<<<<<< HEAD
     'line-height--130',
+=======
+    'line-height--auto',
+>>>>>>> main
   ];
 
   const Component = inline ? 'span' : 'h1';
