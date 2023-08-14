@@ -41,16 +41,16 @@ export default function Home() {
             <Link href={'/why'}>Why Functional CSS is important</Link>
           </ListItem>
           <ListItem>
-            <Link href={'/breakpoint'}>Performance stats</Link>
+            <Link href={'/installation'}>Installation</Link>
           </ListItem>
           <ListItem>
-            <Link href={'/installation'}>Installation</Link>
+            <Link href={'/performance'}>Performance stats</Link>
           </ListItem>
           <ListItem>
             <Link href={'/breakpoint'}>Breakpoints Support Strategy</Link>
           </ListItem>
           <ListItem>
-            <Link href={'/breakpoint'}>Purge Strategy</Link>
+            <Link href={'/purge'}>Purge Strategy</Link>
           </ListItem>
           <ListItem>
             <Link href={'/customization'}>Customization</Link>
