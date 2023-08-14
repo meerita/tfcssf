@@ -19,7 +19,7 @@ export default function HeadlineSmall(props: ITypography): JSX.Element {
     'margin--0',
     'sm-font-size--22',
     'md-font-size--24',
-    'line-height--150',
+    'line-height--auto',
   ];
 
   const Component = inline ? 'span' : 'h3';

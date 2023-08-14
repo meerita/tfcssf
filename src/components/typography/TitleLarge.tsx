@@ -24,7 +24,7 @@ export default function TitleLarge(props: ITypography): JSX.Element {
     'lg-font-size--24',
     'xl-font-size--28',
     'xxl-font-size--32',
-    'line-height--150',
+    'line-height--auto',
   ];
 
   const Component = inline ? 'span' : 'h4';

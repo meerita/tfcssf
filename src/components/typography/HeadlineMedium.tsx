@@ -19,7 +19,7 @@ export default function HeadlineMedium(props: ITypography): JSX.Element {
     'margin--0',
     'sm-font-size--22',
     'md-font-size--28',
-    'line-height--150',
+    'line-height--auto',
   ];
 
   const Component = inline ? 'span' : 'h2';

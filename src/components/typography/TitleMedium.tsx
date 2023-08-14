@@ -22,7 +22,7 @@ export default function TitleMedium(props: ITypography): JSX.Element {
     'lg-font-size--18',
     'xl-font-size--20',
     'xxl-font-size--22',
-    'line-height--150',
+    'line-height--auto',
   ];
 
   const Component = inline ? 'span' : 'h5';

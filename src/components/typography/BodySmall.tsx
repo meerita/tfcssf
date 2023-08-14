@@ -21,11 +21,7 @@ export default function BodySmall(props: ITypography): JSX.Element {
     'lg-font-size--14',
     'xl-font-size--16',
     'xxl-font-size--22',
-<<<<<<< HEAD
-    'line-height--150',
-=======
-    'line-height--140',
->>>>>>> main
+    'line-height--130',
   ];
 
   const Component = inline ? 'span' : 'p';
