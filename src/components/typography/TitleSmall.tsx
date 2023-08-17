@@ -20,7 +20,7 @@ export default function TitleSmall(props: ITypography): JSX.Element {
     'margin--0',
     'sm-font-size--12',
     'md-font-size--14',
-    'line-height--150',
+    'line-height--auto',
   ];
 
   const Component = inline ? 'span' : 'h6';
