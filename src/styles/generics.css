@@ -210,6 +210,51 @@
 .appearance--radio {
   appearance: radio;
 }
+.background-color--blue {
+  background-color: var(--blue);
+}
+.background-color--green {
+  background-color: var(--green);
+}
+.background-color--yellow {
+  background-color: var(--yellow);
+}
+.background-color--orange {
+  background-color: var(--orange);
+}
+.background-color--red {
+  background-color: var(--red);
+}
+.background-color--pink {
+  background-color: var(--pink);
+}
+.background-color--purple {
+  background-color: var(--purple);
+}
+.background-color--black {
+  background-color: var(--black);
+}
+.background-color--darkest-gray {
+  background-color: var(--darkest-gray);
+}
+.background-color--dark-gray {
+  background-color: var(--dark-gray);
+}
+.background-color--gray {
+  background-color: var(--gray);
+}
+.background-color--light-gray {
+  background-color: var(--light-gray);
+}
+.background-color--lighter-gray {
+  background-color: var(--lighter-gray);
+}
+.background-color--lightest-gray {
+  background-color: var(--lightest-gray);
+}
+.background-color--white {
+  background-color: var(--white);
+}
 .border-radius--0 {
   border-radius: 0;
 }
@@ -340,6 +385,51 @@
   color: var(--lightest-gray);
 }
 .color--white {
+  color: var(--white);
+}
+.color--blue\:hover:hover {
+  color: var(--blue);
+}
+.color--green\:hover:hover {
+  color: var(--green);
+}
+.color--yellow\:hover:hover {
+  color: var(--yellow);
+}
+.color--orange\:hover:hover {
+  color: var(--orange);
+}
+.color--red\:hover:hover {
+  color: var(--red);
+}
+.color--pink\:hover:hover {
+  color: var(--pink);
+}
+.color--purple\:hover:hover {
+  color: var(--purple);
+}
+.color--black\:hover:hover {
+  color: var(--black);
+}
+.color--darkest\:hover:hover-gray {
+  color: var(--darkest-gray);
+}
+.color--dark\:hover:hover-gray {
+  color: var(--dark-gray);
+}
+.color--gray\:hover:hover {
+  color: var(--gray);
+}
+.color--light\:hover:hover-gray {
+  color: var(--light-gray);
+}
+.color--lighter\:hover:hover-gray {
+  color: var(--lighter-gray);
+}
+.color--lightest\:hover:hover-gray {
+  color: var(--lightest-gray);
+}
+.color--white\:hover:hover {
   color: var(--white);
 }
 .column-gap--0 {
@@ -2102,6 +2192,294 @@
 }
 .text-transform--lowercase {
   text-transform: lowercase;
+}
+.transition-timing-function--ease {
+  transition-timing-function: ease;
+}
+.transition-timing-function--ease-in {
+  transition-timing-function: ease-in;
+}
+.transition-timing-function--ease-out {
+  transition-timing-function: ease-out;
+}
+.transition-timing-function--ease-in-out {
+  transition-timing-function: ease-in-out;
+}
+.transition-timing-function--linear {
+  transition-timing-function: linear;
+}
+.transition-timing-function--step-start {
+  transition-timing-function: step-start;
+}
+.transition-timing-function--step-end {
+  transition-timing-function: step-end;
+}
+.transition-timing-function--steps {
+  transition-timing-function: steps;
+}
+.transition-timing-function--cubic-bezier {
+  transition-timing-function: cubic-bezier;
+}
+.transition-duration--0 {
+  transition-duration: 0ms;
+}
+.transition-duration--75 {
+  transition-duration: 75ms;
+}
+.transition-duration--100 {
+  transition-duration: 100ms;
+}
+.transition-duration--150 {
+  transition-duration: 150ms;
+}
+.transition-duration--200 {
+  transition-duration: 200ms;
+}
+.transition-duration--300 {
+  transition-duration: 300ms;
+}
+.transition-property--none {
+  transition-property: none;
+}
+.transition-property--all {
+  transition-property: all;
+}
+.transition-property--background-color {
+  transition-property: background-color;
+}
+.transition-property--border-color {
+  transition-property: border-color;
+}
+.transition-property--color {
+  transition-property: color;
+}
+.transition-property--fill {
+  transition-property: fill;
+}
+.transition-property--stroke {
+  transition-property: stroke;
+}
+.transition-property--opacity {
+  transition-property: opacity;
+}
+.transition-property--box-shadow {
+  transition-property: box-shadow;
+}
+.transition-property--transform {
+  transition-property: transform;
+}
+.transition-property--filter {
+  transition-property: filter;
+}
+.transition-property--width {
+  transition-property: width;
+}
+.transition-property--height {
+  transition-property: height;
+}
+.transition-property--padding {
+  transition-property: padding;
+}
+.transition-property--margin {
+  transition-property: margin;
+}
+.transition-property--top {
+  transition-property: top;
+}
+.transition-property--right {
+  transition-property: right;
+}
+.transition-property--bottom {
+  transition-property: bottom;
+}
+.transition-property--left {
+  transition-property: left;
+}
+.transition-property--font-size {
+  transition-property: font-size;
+}
+.transition-property--font-weight {
+  transition-property: font-weight;
+}
+.transition-property--letter-spacing {
+  transition-property: letter-spacing;
+}
+.transition-property--line-height {
+  transition-property: line-height;
+}
+.transition-property--text-align {
+  transition-property: text-align;
+}
+.transition-property--text-transform {
+  transition-property: text-transform;
+}
+.transition-property--text-decoration {
+  transition-property: text-decoration;
+}
+.transition-property--text-shadow {
+  transition-property: text-shadow;
+}
+.transition-property--text-overflow {
+  transition-property: text-overflow;
+}
+.transition-property--white-space {
+  transition-property: white-space;
+}
+.transition-property--word-break {
+  transition-property: word-break;
+}
+.transition-property--word-spacing {
+  transition-property: word-spacing;
+}
+.transition-property--word-wrap {
+  transition-property: word-wrap;
+}
+.transition-property--border-radius {
+  transition-property: border-radius;
+}
+.transition-property--border-width {
+  transition-property: border-width;
+}
+.transition-property--border-style {
+  transition-property: border-style;
+}
+.transition-property--border-spacing {
+  transition-property: border-spacing;
+}
+.transition-property--outline-color {
+  transition-property: outline-color;
+}
+.transition-property--outline-style {
+  transition-property: outline-style;
+}
+.transition-property--outline-width {
+  transition-property: outline-width;
+}
+.transition-property--box-sizing {
+  transition-property: box-sizing;
+}
+.transition-property--visibility {
+  transition-property: visibility;
+}
+.transition-property--overflow {
+  transition-property: overflow;
+}
+.transition-property--overflow-x {
+  transition-property: overflow-x;
+}
+.transition-property--overflow-y {
+  transition-property: overflow-y;
+}
+.transition-property--display {
+  transition-property: display;
+}
+.transition-property--flex {
+  transition-property: flex;
+}
+.transition-property--flex-grow {
+  transition-property: flex-grow;
+}
+.transition-property--flex-shrink {
+  transition-property: flex-shrink;
+}
+.transition-property--flex-basis {
+  transition-property: flex-basis;
+}
+.transition-property--flex-direction {
+  transition-property: flex-direction;
+}
+.transition-property--flex-wrap {
+  transition-property: flex-wrap;
+}
+.transition-property--justify-content {
+  transition-property: justify-content;
+}
+.transition-property--align-items {
+  transition-property: align-items;
+}
+.transition-property--align-content {
+  transition-property: align-content;
+}
+.transition-property--align-self {
+  transition-property: align-self;
+}
+.transition-property--order {
+  transition-property: order;
+}
+.transition-property--grid {
+  transition-property: grid;
+}
+.transition-property--grid-area {
+  transition-property: grid-area;
+}
+.transition-property--grid-template {
+  transition-property: grid-template;
+}
+.transition-property--grid-template-areas {
+  transition-property: grid-template-areas;
+}
+.transition-property--grid-template-rows {
+  transition-property: grid-template-rows;
+}
+.transition-property--grid-template-columns {
+  transition-property: grid-template-columns;
+}
+.transition-property--grid-row {
+  transition-property: grid-row;
+}
+.transition-property--grid-row-start {
+  transition-property: grid-row-start;
+}
+.transition-property--grid-row-end {
+  transition-property: grid-row-end;
+}
+.transition-property--grid-column {
+  transition-property: grid-column;
+}
+.transition-property--grid-column-start {
+  transition-property: grid-column-start;
+}
+.transition-property--grid-column-end {
+  transition-property: grid-column-end;
+}
+.transition-property--grid-auto-rows {
+  transition-property: grid-auto-rows;
+}
+.transition-property--grid-auto-columns {
+  transition-property: grid-auto-columns;
+}
+.transition-property--grid-auto-flow {
+  transition-property: grid-auto-flow;
+}
+.transition-property--gap {
+  transition-property: gap;
+}
+.transition-property--row-gap {
+  transition-property: row-gap;
+}
+.transition-property--column-gap {
+  transition-property: column-gap;
+}
+.transition-property--transform-origin {
+  transition-property: transform-origin;
+}
+.transition-property--transform-style {
+  transition-property: transform-style;
+}
+.transition-property--backface-visibility {
+  transition-property: backface-visibility;
+}
+.transition-property--perspective {
+  transition-property: perspective;
+}
+.transition-property--perspective-origin {
+  transition-property: perspective-origin;
+}
+.transition-property--transform-box {
+  transition-property: transform-box;
+}
+.transition-property--transform {
+  transition-property: transform;
 }
 .width--100 {
   width: 100%;
