@@ -24,7 +24,10 @@ export default function Manifesto() {
         <BodySmall>
           <Link href='/'>Home</Link>
         </BodySmall>
-        <DisplayLarge>We&apos;ve been doing CSS wrong all along</DisplayLarge>
+        <DisplayLarge>
+          We&apos;ve been doing CSS wrong all along. We&apos;ve been doing CSS
+          wrong all along.{' '}
+        </DisplayLarge>
         <BodyLarge>
           We have been programming{' '}
           <abbr title='Cascading Style Sheets'>CSS</abbr> incorrectly for a long
