@@ -51,16 +51,18 @@ export default function Installation() {
           {`→ tfcssf git:(master) cd src/styles
 → styles git:(master) ls -la
 total 376
-drwxr-xr-x    320 Jul 21 11:59 .
-drwxr-xr-x    192 Jul 21 13:29 ..
--rw-r--r--  35050 Jul 21 14:51 generics.css
--rw-r--r--  28302 Jul 21 11:59 lg.css
--rw-r--r--  28261 Jul 21 11:59 md.css
--rw-r--r--   1037 Jul 21 11:59 normalizer.css
--rw-r--r--    865 Jul 21 11:59 root.css
--rw-r--r--  27794 Jul 21 11:59 sm.css
--rw-r--r--  28257 Jul 21 11:59 xl.css
--rw-r--r--  28758 Jul 21 11:59 xxl.css`}
+  320 Jul 21 11:59 .
+  192 Jul 21 13:29 ..
+  106 Aug 14 16:53 custom.css
+49111 Aug 17 15:54 focus.css
+44933 Aug 17 15:25 generics.css
+49111 Aug 17 14:52 hovers.css
+29062 Aug 14 10:16 lg.css
+29021 Aug 14 10:16 md.css
+ 1037 Jul 21 11:59 normalizer.css
+  865 Jul 21 11:59 root.css
+28514 Aug 14 10:16 sm.css
+29017 Aug 14 10:16 xl.css`}
         </SyntaxHighlighter>
 
         <BodyMedium>
@@ -77,6 +79,8 @@ drwxr-xr-x    192 Jul 21 13:29 ..
 import '@/styles/root.css';
 import '@/styles/normalizer.css';
 import '@/styles/generics.css';
+import '@/styles/hover.css';
+import '@/styles/focus.css';
 import '@/styles/sm.css';
 import '@/styles/md.css';
 import '@/styles/lg.css';
@@ -93,11 +97,12 @@ export default function App({ Component, pageProps }: AppProps) {
         <BodyMedium>
           The order is really important. We need to import the{' '}
           <code>root.css</code> file first, then the <code>normalizer.css</code>{' '}
-          file, and then the <code>generics.css</code> file. After that, we can
-          import the media queries files. The order is important because we need
-          to override the styles from the previous files. So, if you want to
-          override the styles from the <code>root.css</code> file, you need to
-          import the <code>root.css</code> file first, and then other files.
+          file, and then the <code>generics.css</code>, <code>hovers.css</code>{' '}
+          and <code>focus.css</code> files. After that, we can import the media
+          queries files. The order is important because we need to override the
+          styles from the previous files. So, if you want to override the styles
+          from the <code>root.css</code> file, you need to import the{' '}
+          <code>root.css</code> file first, and then other files.
         </BodyMedium>
 
         <BodyMedium>
@@ -140,6 +145,8 @@ import '@/styles/my-current-styles.css';
 import '@/styles/root.css'; // make sure you don't repeat this one
 import '@/styles/normalizer.css'; // make sure you don't repeat this one too
 import '@/styles/generics.css';
+import '@/styles/hovers.css';
+import '@/styles/focus.css';
 import '@/styles/sm.css';
 import '@/styles/md.css';
 import '@/styles/lg.css';

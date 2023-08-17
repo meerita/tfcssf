@@ -3,6 +3,8 @@
 import '@/styles/root.css';
 import '@/styles/normalizer.css';
 import '@/styles/generics.css';
+import '@/styles/hovers.css';
+import '@/styles/focus.css';
 import '@/styles/sm.css';
 import '@/styles/md.css';
 import '@/styles/lg.css';

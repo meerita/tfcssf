@@ -94,6 +94,7 @@ export default function Customization() {
           dictacted by the CSS.
         </BodyMedium>
         <BodyMedium>
+<<<<<<< HEAD
           To solve this problem, you can add the <code>!important</code> keyword
           to the <code>color--black</code> class: his code outputs the same
           thing as the previous code, but that would create pure chaos in your
@@ -104,6 +105,23 @@ export default function Customization() {
           is not the common case in FCSS, you can use it if you need to.
         </BodyMedium>
 
+=======
+          To address this issue, you can introduce the <code>!important</code>
+          keyword to the <code>color--black</code> class. However, doing so will
+          result in the same output as the previous code, albeit causing
+          significant disruption to your CSS structure. This approach would
+          demand the inclusion of the <code>!important</code> keyword across all
+          instances, ultimately leading to a cluttered CSS file and the
+          persistence of this recurring problem.
+        </BodyMedium>
+        <BodyMedium>
+          FCSS resolves this dilemma by employing custom classes documented
+          within the <code>custom.css</code> file, which is intentionally
+          imported as the final step. Although this practice deviates from the
+          standard FCSS methodology, it remains a viable option for
+          implementation when necessary.
+        </BodyMedium>
+>>>>>>> document/customization
         <BodyMedium>
           If you need to solve an inheritance problem, make a logic case in the
           component for rendering a different class. For example, if you need to
@@ -163,6 +181,24 @@ export default function MyComponent({ color }) {
             This text is red on hover
           </p>
         </div>
+<<<<<<< HEAD
+=======
+
+        <BodyMedium>
+          You must be careful when writing custom classes. You must avoid
+          classes with dozens of properties, because this will make your CSS
+          file huge. You must also avoid classes that are too specific, because
+          this will make your CSS file too specific and will make it hard to
+          maintain. Always try to make your classes reusable. Always use{' '}
+          <code>c-</code> preffix for custom classes, this will make it easier
+          to identify them.
+        </BodyMedium>
+        <BodyMedium>
+          If your project has too many classes, something is wrong. Ideally, you
+          will have a few classes, and you will reuse them across your project.
+          If you have too many classes, you may want to rethink your design.
+        </BodyMedium>
+>>>>>>> document/customization
       </Main>
     </>
   );
