@@ -94,18 +94,6 @@ export default function Customization() {
           dictacted by the CSS.
         </BodyMedium>
         <BodyMedium>
-<<<<<<< HEAD
-          To solve this problem, you can add the <code>!important</code> keyword
-          to the <code>color--black</code> class: his code outputs the same
-          thing as the previous code, but that would create pure chaos in your
-          CSS. You would need to add the <code>!important</code> keyword to all
-          and you will end up with a messy CSS file, and repeating this same
-          issue. FCSS solves this problem by using the customs classes wrote in{' '}
-          <code>custom.css</code> file that is always imported last. While this
-          is not the common case in FCSS, you can use it if you need to.
-        </BodyMedium>
-
-=======
           To address this issue, you can introduce the <code>!important</code>
           keyword to the <code>color--black</code> class. However, doing so will
           result in the same output as the previous code, albeit causing
@@ -121,7 +109,6 @@ export default function Customization() {
           standard FCSS methodology, it remains a viable option for
           implementation when necessary.
         </BodyMedium>
->>>>>>> document/customization
         <BodyMedium>
           If you need to solve an inheritance problem, make a logic case in the
           component for rendering a different class. For example, if you need to
@@ -181,8 +168,6 @@ export default function MyComponent({ color }) {
             This text is red on hover
           </p>
         </div>
-<<<<<<< HEAD
-=======
 
         <BodyMedium>
           You must be careful when writing custom classes. You must avoid
@@ -198,7 +183,6 @@ export default function MyComponent({ color }) {
           will have a few classes, and you will reuse them across your project.
           If you have too many classes, you may want to rethink your design.
         </BodyMedium>
->>>>>>> document/customization
       </Main>
     </>
   );
