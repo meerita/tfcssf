@@ -50,9 +50,6 @@ export default function Home() {
             <Link href={'/grid'}>The grid system</Link>
           </ListItem>
           <ListItem>
-            <Link href={'/performance'}>Performance stats</Link>
-          </ListItem>
-          <ListItem>
             <Link href={'/breakpoint'}>Breakpoints Support Strategy</Link>
           </ListItem>
           <ListItem>
