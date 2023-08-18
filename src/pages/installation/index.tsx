@@ -35,11 +35,12 @@ export default function Installation() {
         </BodyLarge>
         <TitleLarge>Running this project locally</TitleLarge>
         <BodyMedium>
-          Go to the TFCSSF repository and clone it. Then, go to the root folder
-          and run:
+          Go to the{' '}
+          <a href='https://github.com/meerita/tfcssf'>TFCSSF repository</a> and
+          clone it. Then, go to the root folder and run:
         </BodyMedium>
         <SyntaxHighlighter language='bash' style={dracula}>
-          {`$ yarn && yarn dev`}
+          {`➜  tfcssf git:(main) ✗ yarn && yarn dev`}
         </SyntaxHighlighter>
 
         <BodyMedium>
@@ -48,7 +49,7 @@ export default function Installation() {
         </BodyMedium>
 
         <SyntaxHighlighter language='bash' style={dracula}>
-          {`→ tfcssf git:(master) cd src/styles
+          {`→ tfcssf git:(main) cd src/styles
 → styles git:(master) ls -la
 total 376
   320 Jul 21 11:59 .
