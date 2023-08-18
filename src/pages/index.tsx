@@ -47,6 +47,9 @@ export default function Home() {
             <Link href={'/syntax'}>The natural FCSS syntax</Link>
           </ListItem>
           <ListItem>
+            <Link href={'/grid'}>The grid system</Link>
+          </ListItem>
+          <ListItem>
             <Link href={'/performance'}>Performance stats</Link>
           </ListItem>
           <ListItem>
