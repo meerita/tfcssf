@@ -44,6 +44,9 @@ export default function Home() {
             <Link href={'/installation'}>Installation</Link>
           </ListItem>
           <ListItem>
+            <Link href={'/syntax'}>The natural FCSS syntax</Link>
+          </ListItem>
+          <ListItem>
             <Link href={'/performance'}>Performance stats</Link>
           </ListItem>
           <ListItem>
