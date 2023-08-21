@@ -10,6 +10,7 @@ import TitleLarge from '@/components/typography/TitleLarge';
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 import { dracula } from 'react-syntax-highlighter/dist/cjs/styles/prism';
 import ListItem from '@/components/documentation/listItem/ListItem';
+import BreakpointIndicator from '@/components/indicator/BreakPointIndicator';
 
 export default function Breakpoints() {
   return (
@@ -26,6 +27,7 @@ export default function Breakpoints() {
         <meta name='viewport' content='width=device-width, initial-scale=1' />
         <link rel='icon' href='/favicon.ico' />
       </Head>
+      <BreakpointIndicator />
       <Main>
         <BodySmall>
           <Link href='/'>Home</Link>
